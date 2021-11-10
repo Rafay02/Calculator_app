@@ -14,49 +14,52 @@ code {
 .textfeild{
   padding: 16px;
   text-align: right;
-  background-color:whitesmoke;
-  color: black;
-  font-size: 24px;
+  color:white;
+  font-size: 32px;
 }
-.textfeild span{
-  font-size: 18px;
-  color: purple;
+.res{
+  font-size: 20px;
+  color: gray;
+  text-align: right;
+  margin-right: 15px;
 }
-.operators{
+/* .operators{
   display: flex;
 }
 .operators button{
   background-color:purple;
   flex: 1 1 0%;
   font-weight: 700; 
-}
+} */
 .dijits{
   display: flex;
   flex-wrap: wrap;
 }
 .dijits button{
-  flex: 1 1 33.33%;
+  flex: 1 1 23%;
   background-color: black;
 }
 .container{
   margin-left: 35%;
   margin-right: 35%;
-  border: solid purple 5px;
+  border: solid blue 2px;
+  background-color: black;
+  color: white;
 }
 button {
-  color: #FFF ;
+  color:white ;
   padding: 16px;
   font-size: 20px;
-  background-color: grey;
   appearance: none;
-  border: solid 1px;
+  background-color: black;
+  border: solid gray 1px;
   cursor: pointer;
   transition: 0.4s;
 }
 button:hover{
-  opacity:0.9;
-  color:red;
+  background-color:#C0C0C0;
 }
+
 .App{
   display: flex;
   align-items: center;
